@@ -11,23 +11,23 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "You will get access to",
+  // desc: "This section provides an overview of the contents of the ebook. It includes detailed questions and answers, pre-interview checklists, and post-interview strategies.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Master the Technical Interview",
+      desc: "With 100+ detailed questions and answers covering HTML, CSS, Javascript, and general web development. Plus, some invaluable non-technical insights we couldn’t resist sharing!",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Pre-Interview Power-up:",
+      desc: "Your essential checklist before the big day. From resume optimization to the art of curating an outstanding portfolio, we've got you covered.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Post-Interview Mastery",
+      desc: "No more silence after an interview. Craft thank-you notes, emails, and follow-up strategies that linger in a hiring manager's memory.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
@@ -35,26 +35,26 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  desc: "",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Showcase Your Brilliance:",
+      desc: "Tips and techniques to effectively present your skills, weave compelling stories, and highlight achievements.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Communicate Your Value",
+      desc: "Seamlessly fit into your dream role. Discover how to resonate with company culture and prove that you're the perfect match",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Project Ideas to Impress",
+      desc: "Dive into real-world projects that not only enrich your portfolio but also set you apart in the competitive landscape.",
       icon: <SunIcon />,
     },
   ],
 };
 
 
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
