@@ -2,7 +2,6 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
-
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
 import Benefits from "../components/benefits";
@@ -12,14 +11,15 @@ import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 
+
 const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Ace Your Frontend Interview - Get Your Dream Job - Codes Devs</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Ace your frontend interview and get your dream job with our comprehensive guide and resources by Codes Devs."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,32 +27,26 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Ebook Benefits"
+        title="Unlock Frontend Interview Success with Codes Devs">
+        Tired of feeling unprepared, undervalued, or simply ignored during and after interviews? Enter the comprehensive guide designed specifically for frontend developers. With Codes Devs, you’re not just getting an ebook – you're investing in a successful frontend career.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        pretitle="Watch a Video"
+        title="Discover the Value of Codes Devs">
+        Seal the deal with our bonus books! Gain insider expertise on salary negotiation and a complete blueprint to transform your resume into an irresistible magnet for hiring managers.
       </SectionTitle>
       <Video />
       <SectionTitle
         pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        title="What people say about the guide">
+        {/* Testimonials provide authenticity and trust. Use this section to highlight the transformative experiences of your readers. */}
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle pretitle="FAQ" title="Answers to Your Queries">
+        Address potential questions here to boost conversions and reduce support or chat requests.
       </SectionTitle>
       <Faq />
       <Cta />
